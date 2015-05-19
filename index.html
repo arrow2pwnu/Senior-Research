@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TEST</title>
+		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+			  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+			});
+		</script>
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	</head>
+
+	<body>
+		<form action="#" id="form" name="form">
+			Input: <input type="text" value="" name="text" id="input">
+			<input type="submit" onclick="doSomething()">
+		</form>
+		<script>
+		var input = $("#input").val();
+		console.log(input);
+		$.post("test2.php", { })
+		</script>
+		<div id="MathDiv">
+			<!--Kappa: \({}\)-->
+		</div>
+		<script type="text/javascript" src="mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+		<script type="text/javascript" src="js/test.js"></script>
+	</body>
+</html>

@@ -1,0 +1,24 @@
+.side-nav a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#aceEditor {
+	height: 50vh;
+	width: 100%;
+}
+
+#aceContainer {
+	border-width: 1px;
+	border-style: solid;
+	padding: 0px;
+}
+
+.page-footer {
+}
+
+#test1 {
+	margin: 0 auto;
+	text-align: middle;
+}
